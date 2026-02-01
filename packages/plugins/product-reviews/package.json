@@ -1,0 +1,65 @@
+{
+	"name": "@gauzy/plugin-product-reviews",
+	"version": "0.1.0",
+	"description": "Gauzy Product Reviews Plugin - Integration for managing and displaying product reviews in the Gauzy Platform.",
+	"author": {
+		"name": "Ever Co. LTD",
+		"email": "ever@ever.co",
+		"url": "https://ever.co"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ever-co/ever-gauzy",
+		"directory": "packages/plugins/product-reviews"
+	},
+	"bugs": {
+		"url": "https://github.com/ever-co/ever-gauzy/issues"
+	},
+	"homepage": "https://ever.co",
+	"license": "AGPL-3.0",
+	"private": true,
+	"type": "commonjs",
+	"main": "./src/index.js",
+	"typings": "./src/index.d.ts",
+	"scripts": {
+		"build": "tsc -p tsconfig.lib.json",
+		"build:prod": "tsc -p tsconfig.lib.json",
+		"typecheck": "tsc --noEmit",
+		"test": "jest",
+		"lint": "eslint .",
+		"clean": "rimraf dist coverage"
+	},
+	"dependencies": {
+		"@gauzy/contracts": "workspace:*",
+		"@gauzy/core": "workspace:*",
+		"@gauzy/plugin": "workspace:*",
+		"@nestjs/common": "catalog:",
+		"@nestjs/swagger": "catalog:",
+		"@nestjs/typeorm": "catalog:",
+		"chalk": "catalog:",
+		"class-validator": "catalog:",
+		"graphql-tag": "^2.12.6",
+		"tslib": "catalog:",
+		"typeorm": "catalog:"
+	},
+	"devDependencies": {
+		"@types/jest": "29.5.14",
+		"@types/node": "catalog:",
+		"typescript": "catalog:"
+	},
+	"keywords": [
+		"gauzy",
+		"product-reviews",
+		"plugin",
+		"nestjs",
+		"typescript",
+		"reviews",
+		"feedback",
+		"e-commerce"
+	],
+	"engines": {
+		"node": ">=22",
+		"pnpm": ">=10.0.0"
+	},
+	"sideEffects": false
+}

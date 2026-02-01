@@ -1,0 +1,5 @@
+
+
+> @gauzy/contracts@0.1.0 build /home/arligle/ever-gauzy/packages/contracts
+> tsc -p tsconfig.lib.json
+

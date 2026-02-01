@@ -1,0 +1,5 @@
+
+
+> @gauzy/constants@0.1.0 build /home/arligle/ever-gauzy/packages/constants
+> tsc -p tsconfig.lib.json
+

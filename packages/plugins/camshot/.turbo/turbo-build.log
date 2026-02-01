@@ -1,0 +1,5 @@
+
+
+> @gauzy/plugin-camshot@0.1.0 build /home/arligle/ever-gauzy/packages/plugins/camshot
+> tsc -p tsconfig.lib.json
+

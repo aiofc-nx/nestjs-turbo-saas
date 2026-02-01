@@ -1,0 +1,5 @@
+
+
+> @gauzy/plugin-integration-upwork@0.1.0 build /home/arligle/ever-gauzy/packages/plugins/integration-upwork
+> tsc -p tsconfig.lib.json
+

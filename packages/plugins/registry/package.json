@@ -1,0 +1,59 @@
+{
+	"name": "@gauzy/plugin-registry",
+	"version": "0.1.0",
+	"description": "This plugin provides plugins registry functionality",
+	"author": {
+		"name": "Ever Co. LTD",
+		"email": "ever@ever.co",
+		"url": "https://ever.co"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ever-co/ever-gauzy",
+		"directory": "packages/plugins/videos"
+	},
+	"bugs": {
+		"url": "https://github.com/ever-co/ever-gauzy/issues"
+	},
+	"homepage": "https://ever.co",
+	"license": "AGPL-3.0",
+	"private": true,
+	"type": "commonjs",
+	"main": "./src/index.js",
+	"typings": "./src/index.d.ts",
+	"scripts": {
+		"build": "tsc -p tsconfig.lib.json",
+		"build:prod": "tsc -p tsconfig.lib.json",
+		"typecheck": "tsc --noEmit",
+		"test": "jest",
+		"lint": "eslint .",
+		"clean": "rimraf dist coverage"
+	},
+	"dependencies": {
+		"@gauzy/contracts": "workspace:*",
+		"@gauzy/core": "workspace:*",
+		"@gauzy/plugin": "workspace:*",
+		"@mikro-orm/nestjs": "catalog:",
+		"@nestjs/common": "catalog:",
+		"@nestjs/core": "catalog:",
+		"@nestjs/cqrs": "catalog:",
+		"@nestjs/platform-express": "catalog:",
+		"@nestjs/swagger": "catalog:",
+		"@nestjs/typeorm": "catalog:",
+		"chalk": "catalog:",
+		"class-transformer": "catalog:",
+		"class-validator": "catalog:",
+		"multer": "^2.0.0",
+		"tslib": "catalog:",
+		"typeorm": "catalog:"
+	},
+	"devDependencies": {
+		"@types/multer": "^1.4.12",
+		"typescript": "catalog:"
+	},
+	"engines": {
+		"node": ">=22",
+		"pnpm": ">=10.0.0"
+	},
+	"sideEffects": false
+}

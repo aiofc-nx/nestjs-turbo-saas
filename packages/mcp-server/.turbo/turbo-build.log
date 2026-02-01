@@ -1,0 +1,5 @@
+
+
+> @gauzy/mcp-server@0.1.0 build /home/arligle/ever-gauzy/packages/mcp-server
+> tsc -p tsconfig.lib.json
+

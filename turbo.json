@@ -1,0 +1,81 @@
+{
+	"$schema": "https://turbo.build/schema.json",
+	"globalDependencies": [
+		"package.json",
+		"tsconfig.json",
+		"tsconfig.base.json"
+	],
+    "tasks": {
+		"build": {
+			"dependsOn": ["^build"],
+			"outputs": ["dist/**", ".next/**", "!.next/cache/**"],
+			"env": ["NODE_ENV"]
+		},
+		"@gauzy/constants#build": {
+			"outputs": []
+		},
+		"@gauzy/contracts#build": {
+			"outputs": []
+		},
+		"@gauzy/utils#build": {
+			"outputs": []
+		},
+		"@gauzy/common#build": {
+			"outputs": []
+		},
+		"@gauzy/mcp#build": {
+			"outputs": ["build/**"]
+		},
+		"@gauzy/mcp-server#build": {
+			"outputs": []
+		},
+		"@gauzy/auth#build": {
+			"outputs": []
+		},
+		"@gauzy/config#build": {
+			"outputs": []
+		},
+		"@gauzy/plugin#build": {
+			"outputs": []
+		},
+		"@gauzy/plugin-integration-jira#build": {
+			"outputs": []
+		},
+		"@gauzy/core#build": {
+			"outputs": []
+		},
+		"@gauzy/mcp-auth#build": {
+			"outputs": ["build/**"]
+		},
+		"@gauzy/plugin-sentry#build": {
+			"outputs": []
+		},
+		"build:prod": {
+			"dependsOn": ["^build:prod"],
+			"outputs": ["dist/**", ".next/**", "!.next/cache/**"],
+			"env": ["NODE_ENV"]
+		},
+		"test": {
+			"dependsOn": ["^build"],
+			"outputs": ["coverage/**"],
+			"cache": false
+		},
+		"lint": {
+			"outputs": [],
+			"cache": false
+		},
+		"typecheck": {
+			"dependsOn": ["^build"],
+			"outputs": [],
+			"cache": false
+		},
+		"dev": {
+			"cache": false,
+			"persistent": true
+		},
+		"start": {
+			"cache": false,
+			"persistent": true
+		}
+	}
+}

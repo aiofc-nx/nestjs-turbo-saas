@@ -1,0 +1,65 @@
+{
+	"name": "@gauzy/desktop-api",
+	"version": "0.1.0",
+	"description": "Ever Gauzy Platform desktop APIs",
+	"author": {
+		"name": "Ever Co. LTD",
+		"email": "ever@ever.co",
+		"url": "https://ever.co"
+	},
+	"homepage": "https://gauzy.co",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ever-co/ever-gauzy.git"
+	},
+	"bugs": {
+		"url": "https://github.com/ever-co/ever-gauzy/issues"
+	},
+	"license": "AGPL-3.0",
+	"private": true,
+	"scripts": {
+		"build": "npx rimraf dist && npx tsc --project tsconfig.app.json",
+		"build:prod": "npx rimraf dist && npx tsc --project tsconfig.app.json",
+		"dev": "pnpm nest start --watch",
+		"start": "pnpm nest start",
+		"start:prod": "node ../../dist/out-tsc/apps/desktop-api/src/main.js",
+		"test": "jest",
+		"lint": "eslint .",
+		"clean": "rimraf dist coverage"
+	},
+	"keywords": [
+		"desktop",
+		"api",
+		"gauzy",
+		"nestjs",
+		"microservices",
+		"grpc",
+		"wakatime",
+		"typeorm",
+		"mikro-orm",
+		"integration",
+		"platform",
+		"productivity",
+		"open-source"
+	],
+	"dependencies": {
+		"@gauzy/plugin-integration-wakatime": "workspace:*",
+		"@grpc/grpc-js": "catalog:",
+		"@mikro-orm/better-sqlite": "catalog:",
+		"@mikro-orm/core": "catalog:",
+		"@mikro-orm/nestjs": "catalog:",
+		"@nestjs/common": "catalog:",
+		"@nestjs/core": "catalog:",
+		"@nestjs/typeorm": "catalog:",
+		"better-sqlite3": "^11.7.0"
+	},
+	"devDependencies": {
+		"@nestjs/testing": "catalog:",
+		"@types/node": "catalog:"
+	},
+	"engines": {
+		"node": ">=22",
+		"pnpm": ">=10.0.0"
+	},
+	"sideEffects": false
+}

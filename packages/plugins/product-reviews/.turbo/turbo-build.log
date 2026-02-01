@@ -1,0 +1,5 @@
+
+
+> @gauzy/plugin-product-reviews@0.1.0 build /home/arligle/ever-gauzy/packages/plugins/product-reviews
+> tsc -p tsconfig.lib.json
+

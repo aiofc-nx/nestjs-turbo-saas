@@ -1,0 +1,5 @@
+
+
+> @gauzy/plugin-registry@0.1.0 build /home/arligle/ever-gauzy/packages/plugins/registry
+> tsc -p tsconfig.lib.json
+

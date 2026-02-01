@@ -1,0 +1,89 @@
+{
+	"name": "@gauzy/plugin-integration-github",
+	"version": "0.1.0",
+	"description": "Ever Gauzy Platform plugin for integration with Github APIs",
+	"author": {
+		"name": "Ever Co. LTD",
+		"email": "ever@ever.co",
+		"url": "https://ever.co"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ever-co/ever-gauzy",
+		"directory": "packages/plugins/integration-github"
+	},
+	"bugs": {
+		"url": "https://github.com/ever-co/ever-gauzy/issues"
+	},
+	"homepage": "https://ever.co",
+	"license": "AGPL-3.0",
+	"private": true,
+	"type": "commonjs",
+	"main": "./src/index.js",
+	"typings": "./src/index.d.ts",
+	"scripts": {
+		"build": "tsc -p tsconfig.lib.json",
+		"build:prod": "tsc -p tsconfig.lib.json",
+		"typecheck": "tsc --noEmit",
+		"test": "jest",
+		"lint": "eslint .",
+		"clean": "rimraf dist coverage"
+	},
+	"dependencies": {
+		"@gauzy/config": "workspace:*",
+		"@gauzy/constants": "workspace:*",
+		"@gauzy/contracts": "workspace:*",
+		"@gauzy/core": "workspace:*",
+		"@gauzy/plugin": "workspace:*",
+		"@gauzy/utils": "workspace:*",
+		"@mikro-orm/nestjs": "catalog:",
+		"@nestjs/axios": "github:ever-co/nestjs-axios#master",
+		"@nestjs/cache-manager": "catalog:",
+		"@nestjs/common": "catalog:",
+		"@nestjs/core": "catalog:",
+		"@nestjs/cqrs": "catalog:",
+		"@nestjs/swagger": "catalog:",
+		"@nestjs/typeorm": "catalog:",
+		"@octokit/auth-app": "^8.1.2",
+		"@octokit/rest": "^22.0.1",
+		"@octokit/types": "^13.6.1",
+		"@octokit/webhooks": "^14.1.0",
+		"@probot/get-private-key": "^2.1.1",
+		"cache-manager": "^6.4.2",
+		"chalk": "catalog:",
+		"class-transformer": "catalog:",
+		"class-validator": "catalog:",
+		"express": "^5.2.1",
+		"moment": "catalog:",
+		"octokit": "^5.0.5",
+		"pino-std-serializers": "^7.0.0",
+		"probot": "^14.2.4",
+		"rxjs": "catalog:",
+		"smee-client": "^1.2.3",
+		"tslib": "catalog:",
+		"typeorm": "catalog:",
+		"underscore": "^1.13.3",
+		"uuid": "^13.0.0"
+	},
+	"devDependencies": {
+		"@types/jest": "29.5.14",
+		"@types/node": "catalog:",
+		"typescript": "catalog:"
+	},
+	"keywords": [
+		"github",
+		"plugin",
+		"integration",
+		"Ever Gauzy",
+		"NestJS",
+		"typescript",
+		"API",
+		"automation",
+		"webhooks"
+	],
+	"engines": {
+		"node": ">=22",
+		"pnpm": ">=10.0.0"
+	},
+	"sideEffects": false
+}

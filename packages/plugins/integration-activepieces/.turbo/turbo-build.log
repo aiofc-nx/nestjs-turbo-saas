@@ -1,0 +1,5 @@
+
+
+> @gauzy/plugin-integration-activepieces@0.1.0 build /home/arligle/ever-gauzy/packages/plugins/integration-activepieces
+> tsc -p tsconfig.lib.json
+

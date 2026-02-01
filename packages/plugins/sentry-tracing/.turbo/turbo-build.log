@@ -1,0 +1,5 @@
+
+
+> @gauzy/plugin-sentry@0.1.0 build /home/arligle/ever-gauzy/packages/plugins/sentry-tracing
+> tsc -p tsconfig.lib.json
+

@@ -1,0 +1,5 @@
+
+
+> @gauzy/plugin-integration-wakatime@0.1.0 build /home/arligle/ever-gauzy/packages/plugins/integration-wakatime
+> tsc -p tsconfig.lib.json
+

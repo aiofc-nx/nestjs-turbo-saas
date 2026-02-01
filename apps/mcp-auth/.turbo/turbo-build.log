@@ -1,0 +1,20 @@
+
+
+> @gauzy/mcp-auth@0.1.0 build /home/arligle/ever-gauzy/apps/mcp-auth
+> npx rimraf build && npx tsc --project tsconfig.json
+
+[1mnpm[22m [33mwarn[39m [94mUnknown env config "auto-install-peers". This will stop working in the next major version of npm.[39m
+[1mnpm[22m [33mwarn[39m [94mUnknown env config "prefer-workspace-packages". This will stop working in the next major version of npm.[39m
+[1mnpm[22m [33mwarn[39m [94mUnknown env config "catalogs". This will stop working in the next major version of npm.[39m
+[1mnpm[22m [33mwarn[39m [94mUnknown env config "catalog". This will stop working in the next major version of npm.[39m
+[1mnpm[22m [33mwarn[39m [94mUnknown env config "verify-deps-before-run". This will stop working in the next major version of npm.[39m
+[1mnpm[22m [33mwarn[39m [94mUnknown env config "_jsr-registry". This will stop working in the next major version of npm.[39m
+[1mnpm[22m [33mwarn[39m [94mUnknown env config "scripts-prepend-node-path". This will stop working in the next major version of npm.[39m
+[1G[0K⠙[1G[0K⠹[1G[0K[1G[0K⠙[1G[0K[1mnpm[22m [33mwarn[39m [94mUnknown env config "auto-install-peers". This will stop working in the next major version of npm.[39m
+[1mnpm[22m [33mwarn[39m [94mUnknown env config "prefer-workspace-packages". This will stop working in the next major version of npm.[39m
+[1mnpm[22m [33mwarn[39m [94mUnknown env config "catalogs". This will stop working in the next major version of npm.[39m
+[1mnpm[22m [33mwarn[39m [94mUnknown env config "catalog". This will stop working in the next major version of npm.[39m
+[1mnpm[22m [33mwarn[39m [94mUnknown env config "verify-deps-before-run". This will stop working in the next major version of npm.[39m
+[1mnpm[22m [33mwarn[39m [94mUnknown env config "_jsr-registry". This will stop working in the next major version of npm.[39m
+[1mnpm[22m [33mwarn[39m [94mUnknown env config "scripts-prepend-node-path". This will stop working in the next major version of npm.[39m
+[1G[0K⠙[1G[0K[1G[0K⠙[1G[0K

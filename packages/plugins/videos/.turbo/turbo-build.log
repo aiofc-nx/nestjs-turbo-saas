@@ -1,0 +1,5 @@
+
+
+> @gauzy/plugin-videos@0.1.0 build /home/arligle/ever-gauzy/packages/plugins/videos
+> tsc -p tsconfig.lib.json
+

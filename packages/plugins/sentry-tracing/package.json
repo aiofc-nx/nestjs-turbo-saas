@@ -1,0 +1,74 @@
+{
+	"name": "@gauzy/plugin-sentry",
+	"version": "0.1.0",
+	"description": "Gauzy Sentry Plugin - Seamless integration with Sentry for advanced error tracking and monitoring in Gauzy Platform.",
+	"author": {
+		"name": "Ever Co. LTD",
+		"email": "ever@ever.co",
+		"url": "https://ever.co"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ever-co/ever-gauzy",
+		"directory": "packages/plugins/sentry-tracing"
+	},
+	"bugs": {
+		"url": "https://github.com/ever-co/ever-gauzy/issues"
+	},
+	"homepage": "https://ever.co",
+	"license": "AGPL-3.0",
+	"private": true,
+	"type": "commonjs",
+	"main": "./src/index.js",
+	"typings": "./src/index.d.ts",
+	"scripts": {
+		"build": "tsc -p tsconfig.lib.json",
+		"build:prod": "tsc -p tsconfig.lib.json",
+		"typecheck": "tsc --noEmit",
+		"test": "jest",
+		"lint": "eslint .",
+		"clean": "rimraf dist coverage"
+	},
+	"dependencies": {
+		"@gauzy/config": "workspace:*",
+		"@gauzy/core": "workspace:*",
+		"@gauzy/plugin": "workspace:*",
+		"@nestjs/common": "catalog:",
+		"@nestjs/config": "catalog:",
+		"@nestjs/core": "catalog:",
+		"@nestjs/graphql": "catalog:",
+		"@opentelemetry/instrumentation-express": "^0.57.0",
+		"@opentelemetry/instrumentation-http": "^0.57.0",
+		"@opentelemetry/instrumentation-mysql2": "^0.57.0",
+		"@opentelemetry/instrumentation-nestjs-core": "^0.57.0",
+		"@opentelemetry/instrumentation-pg": "^0.57.0",
+		"@opentelemetry/instrumentation-redis": "^0.57.0",
+		"@sentry/core": "9.43.0",
+		"@sentry/node": "9.43.0",
+		"chalk": "catalog:",
+		"express": "^5.2.1",
+		"rxjs": "catalog:",
+		"tslib": "catalog:"
+	},
+	"devDependencies": {
+		"@types/jest": "29.5.14",
+		"@types/node": "catalog:",
+		"typescript": "catalog:"
+	},
+	"keywords": [
+		"gauzy",
+		"sentry",
+		"plugin",
+		"error-tracking",
+		"monitoring",
+		"nestjs",
+		"typescript",
+		"logging",
+		"observability"
+	],
+	"engines": {
+		"node": ">=22",
+		"pnpm": ">=10.0.0"
+	},
+	"sideEffects": false
+}

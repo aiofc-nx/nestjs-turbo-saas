@@ -1,0 +1,5 @@
+
+
+> @gauzy/plugin-jitsu-analytics@0.1.0 build /home/arligle/ever-gauzy/packages/plugins/jitsu-analytics
+> tsc -p tsconfig.lib.json
+

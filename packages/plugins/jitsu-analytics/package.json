@@ -1,0 +1,61 @@
+{
+	"name": "@gauzy/plugin-jitsu-analytics",
+	"version": "0.1.0",
+	"description": "Ever Gauzy Platform Jitsu Analytics Plugin",
+	"author": {
+		"name": "Ever Co. LTD",
+		"email": "ever@ever.co",
+		"url": "https://ever.co"
+	},
+	"license": "AGPL-3.0",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ever-co/ever-gauzy",
+		"directory": "packages/plugins/jitsu-analytics"
+	},
+	"bugs": {
+		"url": "https://github.com/ever-co/ever-gauzy/issues"
+	},
+	"homepage": "https://ever.co",
+	"private": true,
+	"type": "commonjs",
+	"main": "./src/index.js",
+	"typings": "./src/index.d.ts",
+	"scripts": {
+		"build": "tsc -p tsconfig.lib.json",
+		"build:prod": "tsc -p tsconfig.lib.json",
+		"typecheck": "tsc --noEmit",
+		"test": "jest",
+		"lint": "eslint .",
+		"clean": "rimraf dist coverage"
+	},
+	"dependencies": {
+		"@gauzy/config": "workspace:*",
+		"@gauzy/core": "workspace:*",
+		"@gauzy/plugin": "workspace:*",
+		"@jitsu/js": "^1.10.4",
+		"@nestjs/common": "catalog:",
+		"chalk": "catalog:",
+		"node-fetch": "^2.6.7",
+		"tslib": "catalog:",
+		"typeorm": "catalog:"
+	},
+	"devDependencies": {
+		"@types/jest": "29.5.14",
+		"@types/node": "catalog:",
+		"typescript": "catalog:"
+	},
+	"keywords": [
+		"gauzy",
+		"plugin",
+		"analytics",
+		"jitsu",
+		"ever",
+		"platform"
+	],
+	"engines": {
+		"node": ">=22",
+		"pnpm": ">=10.0.0"
+	},
+	"sideEffects": false
+}

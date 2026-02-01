@@ -1,0 +1,5 @@
+
+
+> @gauzy/config@0.1.0 build /home/arligle/ever-gauzy/packages/config
+> tsc -p tsconfig.lib.json
+

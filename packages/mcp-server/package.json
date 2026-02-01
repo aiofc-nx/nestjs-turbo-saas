@@ -1,0 +1,82 @@
+{
+	"name": "@gauzy/mcp-server",
+	"version": "0.1.0",
+	"description": "Ever Gauzy Platform MCP Server module",
+	"author": {
+		"name": "Ever Co. LTD",
+		"email": "ever@ever.co",
+		"url": "https://ever.co"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ever-co/ever-gauzy",
+		"directory": "packages/mcp-server"
+	},
+	"bugs": {
+		"url": "https://github.com/ever-co/ever-gauzy/issues"
+	},
+	"private": true,
+	"type": "commonjs",
+	"main": "../../../dist/packages/mcp-server/src/index.js",
+	"types": "../../../dist/packages/mcp-server/src/index.d.ts",
+	"homepage": "https://ever.co",
+	"license": "AGPL-3.0",
+	"scripts": {
+		"build": "tsc -p tsconfig.lib.json",
+		"build:prod": "tsc -p tsconfig.lib.json",
+		"typecheck": "tsc --noEmit",
+		"test": "jest",
+		"lint": "eslint .",
+		"clean": "rimraf dist coverage"
+	},
+	"dependencies": {
+		"@modelcontextprotocol/sdk": "^1.13.1",
+		"@nestjs/common": "catalog:",
+		"@nestjs/core": "catalog:",
+		"@nestjs/platform-express": "catalog:",
+		"axios": "^1.9.0",
+		"bcryptjs": "^3.0.2",
+		"connect-redis": "^7.1.0",
+		"cookie-parser": "^1.4.7",
+		"cors": "^2.8.5",
+		"csrf-csrf": "4.0.3",
+		"escape-html": "^1.0.3",
+		"express": "^5.2.1",
+		"express-rate-limit": "^8.0.1",
+		"express-session": "^1.18.1",
+		"helmet": "^4.1.1",
+		"ioredis": "^5.7.0",
+		"jose": "^6.0.13",
+		"jsonwebtoken": "^9.0.0",
+		"tslib": "catalog:",
+		"uuid": "^13.0.0",
+		"ws": "^8.18.3",
+		"zod": "^4.3.5",
+		"zod-to-json-schema": "^3.25.0"
+	},
+	"devDependencies": {
+		"@types/cookie-parser": "^1.4.9",
+		"@types/cors": "^2.8.19",
+		"@types/express": "catalog:",
+		"@types/express-session": "^1.18.2",
+		"@types/jest": "29.5.14",
+		"@types/jsonwebtoken": "^9.0.10",
+		"@types/node": "catalog:",
+		"@types/ws": "^8.18.1",
+		"cross-env": "catalog:",
+		"ts-node": "catalog:",
+		"typescript": "catalog:"
+	},
+	"keywords": [
+		"api",
+		"mcp",
+		"server",
+		"gauzy",
+		"mcp-server"
+	],
+	"engines": {
+		"node": ">=22",
+		"pnpm": ">=10.0.0"
+	},
+	"sideEffects": false
+}

@@ -1,0 +1,5 @@
+
+
+> @gauzy/plugin-changelog@0.1.0 build /home/arligle/ever-gauzy/packages/plugins/changelog
+> tsc -p tsconfig.lib.json
+
