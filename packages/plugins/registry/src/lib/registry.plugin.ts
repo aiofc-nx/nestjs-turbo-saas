@@ -1,5 +1,5 @@
 import { IOnPluginBootstrap, IOnPluginDestroy, GauzyCorePlugin as Plugin } from '@gauzy/plugin';
-import * as chalk from 'chalk';
+import chalk from 'chalk';
 import { entities } from './domain/entities';
 import { PluginRegistryModule } from './plugin-registry.module';
 

@@ -1,5 +1,5 @@
 import { Column, JoinColumn, JoinTable, RelationId } from 'typeorm';
-import * as chalk from 'chalk';
+import chalk from 'chalk';
 import { ApplicationPluginConfig, CustomEmbeddedFields, RelationCustomEmbeddedFieldConfig } from '@gauzy/common';
 import { getColumnType } from '../../../core/decorators/entity/column.helper';
 import { ColumnIndex, MultiORMColumn, MultiORMManyToMany, MultiORMManyToOne } from '../../../core/decorators';

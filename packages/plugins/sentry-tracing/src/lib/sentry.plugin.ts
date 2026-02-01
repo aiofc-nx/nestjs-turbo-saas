@@ -1,6 +1,6 @@
 import { APP_INTERCEPTOR, HttpAdapterHost } from '@nestjs/core';
 import { MiddlewareConsumer, NestModule } from '@nestjs/common';
-import * as chalk from 'chalk';
+import chalk from 'chalk';
 import type { Integration } from '@sentry/core';
 import { GauzyCorePlugin as Plugin, IOnPluginBootstrap } from '@gauzy/plugin';
 import { SentryRequestMiddleware } from './sentry-request.middleware';

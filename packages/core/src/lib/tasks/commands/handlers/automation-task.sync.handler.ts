@@ -1,7 +1,7 @@
 import { ICommandHandler, CommandHandler, EventBus } from '@nestjs/cqrs';
 import { InjectRepository } from '@nestjs/typeorm';
 import { FindOptionsRelations } from 'typeorm';
-import * as chalk from 'chalk';
+import chalk from 'chalk';
 import {
 	ActionTypeEnum,
 	ActorTypeEnum,

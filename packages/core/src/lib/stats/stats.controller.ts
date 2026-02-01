@@ -1,5 +1,5 @@
 import { Controller, Get, UseGuards } from '@nestjs/common';
-import * as chalk from 'chalk';
+import chalk from 'chalk';
 import { FeatureEnum } from '@gauzy/contracts';
 import { FeatureFlag, Public } from '@gauzy/common';
 import { StatsService } from './stats.service';

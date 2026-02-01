@@ -34,7 +34,7 @@ import { NestExpressApplication } from '@nestjs/platform-express';
 import { EventSubscriber, MikroORM, RequestContext } from '@mikro-orm/core';
 import { useContainer } from 'class-validator';
 import helmet from 'helmet';
-import * as chalk from 'chalk';
+import chalk from 'chalk';
 import * as fs from 'fs';
 import * as path from 'path';
 import { urlencoded, json } from 'express';

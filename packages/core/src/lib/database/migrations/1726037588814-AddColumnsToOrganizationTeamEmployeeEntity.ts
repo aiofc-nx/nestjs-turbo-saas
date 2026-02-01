@@ -1,5 +1,5 @@
 import { MigrationInterface, QueryRunner } from 'typeorm';
-import * as chalk from 'chalk';
+import chalk from 'chalk';
 import { DatabaseTypeEnum } from '@gauzy/config';
 
 export class AddColumnsToOrganizationTeamEmployeeEntity1726037588814 implements MigrationInterface {

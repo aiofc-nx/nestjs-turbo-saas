@@ -1,5 +1,5 @@
 import { MigrationInterface, QueryRunner } from 'typeorm';
-import * as chalk from 'chalk';
+import chalk from 'chalk';
 import { DatabaseTypeEnum } from '@gauzy/config';
 
 export class AlterEquipmentSharingEntityTable1741002457504 implements MigrationInterface {

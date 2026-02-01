@@ -1,5 +1,5 @@
 
 
-> @gauzy/plugin-job-search@0.1.0 build /home/arligle/ever-gauzy/packages/plugins/job-search
+> @gauzy/plugin-job-search@0.1.0 build /home/arligle/nestjs-turbo-saas/packages/plugins/job-search
 > tsc -p tsconfig.lib.json
 

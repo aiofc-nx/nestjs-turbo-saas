@@ -10,7 +10,7 @@ import {
 } from '@nestjs/common';
 import SmeeClient from 'smee-client';
 import { isEmpty } from 'underscore';
-import * as chalk from 'chalk';
+import chalk from 'chalk';
 import type { Probot } from 'probot';
 import { v4 } from 'uuid';
 import { ModuleProviders, ProbotConfig } from './probot.types';

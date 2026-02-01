@@ -1,5 +1,5 @@
 import { MigrationInterface, QueryRunner } from 'typeorm';
-import * as chalk from 'chalk';
+import chalk from 'chalk';
 import { v4 as uuidv4 } from 'uuid';
 import { DatabaseTypeEnum } from '@gauzy/config';
 

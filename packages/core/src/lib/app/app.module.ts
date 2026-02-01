@@ -10,7 +10,7 @@ import { Keyv } from 'keyv';
 import { ClsModule, ClsService } from 'nestjs-cls';
 import { HeaderResolver, I18nModule } from 'nestjs-i18n';
 import { initialize as initializeUnleash, InMemStorageProvider, UnleashConfig } from 'unleash-client';
-import * as chalk from 'chalk';
+import chalk from 'chalk';
 import * as path from 'path';
 import { LanguagesEnum } from '@gauzy/contracts';
 import { ConfigService, environment } from '@gauzy/config';

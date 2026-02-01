@@ -3,7 +3,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import * as mjml2html from 'mjml';
 import { v4 as uuidV4 } from 'uuid';
-import * as chalk from 'chalk';
+import chalk from 'chalk';
 import { EmailTemplateEnum } from '@gauzy/contracts';
 import { isEmpty } from '@gauzy/utils';
 import { DatabaseTypeEnum } from '@gauzy/config';

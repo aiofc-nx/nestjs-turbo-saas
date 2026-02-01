@@ -7,7 +7,7 @@ import * as unzipper from 'unzipper';
 import csv from 'csv-parser';
 import * as rimraf from 'rimraf';
 import * as path from 'path';
-import * as chalk from 'chalk';
+import chalk from 'chalk';
 import { ConfigService } from '@gauzy/config';
 import { isNotEmpty } from '@gauzy/utils';
 import { convertToDatetime } from '../../core/utils';

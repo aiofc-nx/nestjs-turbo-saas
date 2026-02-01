@@ -1,5 +1,5 @@
 
 
-> @gauzy/api@0.1.0 build /home/arligle/ever-gauzy/apps/api
+> @gauzy/api@0.1.0 build /home/arligle/nestjs-turbo-saas/apps/api
 > pnpm nest build
 

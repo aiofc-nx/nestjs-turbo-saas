@@ -1,5 +1,5 @@
 import { DataSource } from 'typeorm';
-import * as chalk from 'chalk';
+import chalk from 'chalk';
 import * as path from 'path';
 import * as rimraf from 'rimraf';
 import { ApplicationPluginConfig } from '@gauzy/common';

@@ -1,6 +1,6 @@
 import { ServeStaticModuleOptions } from '@nestjs/serve-static';
 import * as path from 'path';
-import * as chalk from 'chalk';
+import chalk from 'chalk';
 import { ConfigService, environment } from '@gauzy/config';
 import { getApiPublicPath } from './core/util/path-util';
 

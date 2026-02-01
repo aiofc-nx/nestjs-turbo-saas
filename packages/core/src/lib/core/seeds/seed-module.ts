@@ -3,7 +3,7 @@
 // Copyright (c) 2019 Alexi Taylor
 import { NestFactory } from '@nestjs/core';
 import yargs from 'yargs';
-import * as chalk from 'chalk';
+import chalk from 'chalk';
 import { ApplicationPluginConfig } from '@gauzy/common';
 import { registerPluginConfig } from './../../bootstrap';
 import { SeedDataService } from './seed-data.service';

@@ -1,7 +1,7 @@
 import { Injectable, Logger } from '@nestjs/common';
 import { CommandBus } from '@nestjs/cqrs';
 import type { Context as ProbotContext } from 'probot';
-import * as chalk from 'chalk';
+import chalk from 'chalk';
 
 import {
 	GithubPropertyMapEnum,

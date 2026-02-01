@@ -1,6 +1,6 @@
 
 import { MigrationInterface, QueryRunner } from "typeorm";
-import * as chalk from 'chalk';
+import chalk from 'chalk';
 import { DatabaseTypeEnum } from "@gauzy/config";
 
 export class AlterTaskStatusEntityTable1703485836649 implements MigrationInterface {

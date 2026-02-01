@@ -1,5 +1,5 @@
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
-import * as chalk from 'chalk';
+import chalk from 'chalk';
 import { ID, ITimeLog, ITimeSlot } from '@gauzy/contracts';
 import { isEmpty, isNotEmpty } from '@gauzy/utils';
 import { TimeSlotBulkDeleteCommand } from '../time-slot-bulk-delete.command';

@@ -25,7 +25,7 @@ import {
 } from './sdk/gauzy-ai-sdk';
 import { TypedDocumentNode as DocumentNode } from '@graphql-typed-document-node/core';
 import fetch from 'cross-fetch';
-import * as chalk from 'chalk';
+import chalk from 'chalk';
 import FormData from 'form-data';
 import {
 	ApolloClient,

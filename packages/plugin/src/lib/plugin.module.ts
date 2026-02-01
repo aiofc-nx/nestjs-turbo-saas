@@ -6,7 +6,7 @@ import {
 	OnModuleInit
 } from '@nestjs/common';
 import { ModuleRef } from '@nestjs/core';
-import * as chalk from 'chalk';
+import chalk from 'chalk';
 import { ConfigModule, ConfigService, getConfig } from '@gauzy/config';
 import { PluginLifecycleMethods } from './plugin.interface';
 import { getPluginModules, hasLifecycleMethod } from './plugin.helper';

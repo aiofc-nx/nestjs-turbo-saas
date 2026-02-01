@@ -188,7 +188,7 @@ export class PluginTenant extends TenantOrganizationBaseEntity implements IPlugi
 	})
 	@IsOptional()
 	@ColumnIndex()
-	@MultiORMColumn({ type: isBetterSqlite3() ? 'text' : 'timestamp', nullable: true })
+	@MultiORMColumn({ type: isBetterSqlite3() ? 'datetime' : 'timestamp', nullable: true })
 	approvedAt?: Date;
 
 	@ApiPropertyOptional({

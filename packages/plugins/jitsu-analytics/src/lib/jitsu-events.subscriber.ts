@@ -1,7 +1,7 @@
 import { AnalyticsInterface } from '@jitsu/js';
 import { Logger } from '@nestjs/common';
 import { EventSubscriber } from 'typeorm';
-import * as chalk from 'chalk';
+import chalk from 'chalk';
 import { BaseEntityEventSubscriber } from '@gauzy/core';
 import { environment } from '@gauzy/config';
 import { createJitsu } from './jitsu-helper';

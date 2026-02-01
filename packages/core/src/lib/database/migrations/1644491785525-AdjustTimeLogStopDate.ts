@@ -1,5 +1,5 @@
 import { MigrationInterface, QueryRunner } from 'typeorm';
-import * as chalk from 'chalk';
+import chalk from 'chalk';
 import { chain } from 'underscore';
 import { DatabaseTypeEnum } from '@gauzy/config';
 import { isEmpty, isNotEmpty } from '@gauzy/utils';

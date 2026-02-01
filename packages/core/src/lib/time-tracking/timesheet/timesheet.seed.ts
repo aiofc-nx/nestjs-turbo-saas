@@ -2,7 +2,7 @@ import { DataSource } from 'typeorm';
 import { faker } from '@faker-js/faker';
 import { TimesheetStatus, ITimeSlot, ITenant, IEmployee, ITimesheet, IOrganization } from '@gauzy/contracts';
 import * as _ from 'underscore';
-import * as chalk from 'chalk';
+import chalk from 'chalk';
 import { ApplicationPluginConfig } from '@gauzy/common';
 import { createRandomTimeLogs, recalculateTimesheetActivity } from './../time-log/time-log.seed';
 import { createRandomActivities } from '../activity/activity.seed';

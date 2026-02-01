@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { Brackets, SelectQueryBuilder, WhereExpressionBuilder } from 'typeorm';
 import { reduce, pluck, pick, mapObject, groupBy, chain } from 'underscore';
-import * as chalk from 'chalk';
+import chalk from 'chalk';
 import {
 	PermissionsEnum,
 	IGetActivitiesStatistics,

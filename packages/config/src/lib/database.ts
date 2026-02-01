@@ -10,7 +10,7 @@ import { PostgresConnectionOptions } from 'typeorm/driver/postgres/PostgresConne
 import { MysqlConnectionOptions } from 'typeorm/driver/mysql/MysqlConnectionOptions';
 import { KnexModuleOptions } from 'nest-knexjs';
 import * as path from 'path';
-import * as chalk from 'chalk';
+import chalk from 'chalk';
 import { DatabaseTypeEnum, getLoggingMikroOptions, getLoggingOptions, getTlsOptions } from './database-helpers';
 
 /**

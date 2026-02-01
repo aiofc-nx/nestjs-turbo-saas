@@ -1,5 +1,5 @@
 import { DatabaseTypeEnum } from '@gauzy/config';
-import * as chalk from 'chalk';
+import chalk from 'chalk';
 import { MigrationInterface, QueryRunner } from 'typeorm';
 import { RolePermissionUtils } from '../../role-permission/utils';
 

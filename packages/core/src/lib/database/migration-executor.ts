@@ -1,6 +1,6 @@
 import { DataSource, DataSourceOptions } from 'typeorm';
 import { camelCase } from 'typeorm/util/StringUtils';
-import * as chalk from 'chalk';
+import chalk from 'chalk';
 import * as path from 'path';
 import { ApplicationPluginConfig } from '@gauzy/common';
 import { DatabaseTypeEnum } from '@gauzy/config';
@@ -279,7 +279,7 @@ function getTemplate(
 	downSqls: string[]
 ): string {
 	return `import { MigrationInterface, QueryRunner } from 'typeorm';
-import * as chalk from 'chalk';
+import chalk from 'chalk';
 import { DatabaseTypeEnum } from '@gauzy/config';
 
 export class ${camelCase(name, true)}${timestamp} implements MigrationInterface {

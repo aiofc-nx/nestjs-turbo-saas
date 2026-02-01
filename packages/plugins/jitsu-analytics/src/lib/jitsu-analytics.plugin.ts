@@ -1,5 +1,5 @@
 import { DynamicModule } from '@nestjs/common';
-import * as chalk from 'chalk';
+import chalk from 'chalk';
 import { GauzyCorePlugin as Plugin, IOnPluginBootstrap, IOnPluginDestroy } from '@gauzy/plugin';
 import { JITSU_MODULE_PROVIDER_CONFIG, JitsuModuleOptions } from './jitsu.types';
 import { parseOptions } from './jitsu-helper';
